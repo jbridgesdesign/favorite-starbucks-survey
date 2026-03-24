@@ -1,0 +1,108 @@
+body {
+  margin: 0; 
+  background-color: #90EE90;
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#form-holder {
+  background-color: #F8F8F8;
+  padding: 10px 25px 10px 25px;
+  display: block;
+  width: 45%;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 950px;
+}
+form {
+  display: block;
+  margin: 0;
+}
+.rows {
+  display: block;
+  padding: 5px 0 5px 0;
+}
+.label {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  padding: 2px 20px 0 0;
+}
+.rightSide {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  vertical-align: middle;
+}
+.input {
+  height: 18px;
+  width: 250px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#dropdown {
+  height: 30px;
+  width: 262px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#radio-set {
+  display: block;
+  list-style: none;
+}
+#radio-set {
+  margin: -15px 0 -5px 0;
+}
+.radio {
+  display: block;
+  position: relative;
+  left: -30px;
+}
+.contact {
+  float: left;
+  margin-right: 5px;
+}
+#contact-how {
+  display: block;
+}
+#contact-prefs {
+  margin-top: -5px;
+}
+.checkboxes {
+  list-style: none;
+  position: relative;
+  left: -30px;
+}
+#comments {
+  height: 65px;
+  width: 256px;
+  resize: vertical;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+  margin: -5px 0 5px 0;
+}
+#submit {
+  display: block;
+  margin: 0 auto 5px auto;
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #006400;
+  color: #FFF;
+  border: none;
+}
+#submit:hover {
+  background-color: #90EE90;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  color: #006400;
+}
+footer a:hover {
+  color: #FFF;
+}
