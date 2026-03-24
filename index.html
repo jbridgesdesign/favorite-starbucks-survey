@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starbucks Survey</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="title">Favorite Starbucks Beverage Survey</h1>
+  </header>
+  
+  <div id="form-holder">
+    <p id="description">We'd love to know what your favorite Starbucks beverage is. Take a moment to fill out this form so we know what types of drinks to prioritize for our favorite customers.</p>
+    <form id="survey-form" >
+      <div class="rows">
+        <div class="label">
+          <label id="name-label" for="name">* Name: </label>
+        </div>
+        <div class="rightSide">
+          <input type="text" name="name" id="name" class="input" placeholder="Name" required>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="label">
+          <label id="email-label" for="email">* Email:</label>
+        </div>
+        <div class="rightSide">
+          <input type="email" name="email" id="email" class="input" placeholder="Email" required>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="label">
+          <label id="number-label" for="number" required>Phone Number:</label>
+        </div>
+        <div class="rightSide">
+          <input type="number" name="number" id="number" class="input" placeholder="Phone Number" min="10" max="10">
+        </div>
+      </div>
+      <div class="rows">
+        <div class="label">
+          <label id="dropdown-label" for="dropdown">Favorite Starbucks Beverage:</></label>
+        </div>
+        <div class="rightSide">
+          <select id="dropdown" name="dropdown" class="dropdown" required>
+            <option disabled value>Select an option</option>
+            <option value="hot-coffee">Hot Coffees</option>
+            <option value="ice-coffee">Iced Coffees</option>
+            <option value="refresher">Refreshers</option>
+          </select>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="label">
+          <label id="dropdown-label" for="dropdown">May we contact you for more information?</></label>
+        </div>
+        <div class="rightSide">
+          <ul id="radio-set">
+            <li class="radio">
+              <label id="yes-contact">Yes
+                <input name="radio-buttons" value="1" type="radio" class="contact">
+              </label>
+            </li>
+            <li class="radio">
+              <label id="no-contact">No
+                <input name="radio-buttons" value="0" type="radio" class="contact">
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="label">
+          <label id="contact-how" for"contact-how">If you answered 'yes' above, how would you prefer us to contact you?<br />(Check all that apply):</label>
+        </div>
+        <div class="rightSide">
+          <ul id="contact-prefs">
+            <li class="checkboxes">
+              <label>
+                <input name="prefer" value="1" type="checkbox" class="contact-pref-box">
+                Email
+              </label>
+            </li>
+            <li class="checkboxes">
+              <label>
+                <input name="prefer" value="0" type="checkbox" class="contact-pref-box">
+                Phone
+              </label>
+            </li>
+            <li class="checkboxes">
+              <label>
+                <input name="prefer" value="0" type="checkbox" class="contact-pref-box">
+                Other (list below in comments)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="label">
+          <label id="comments-label" for="comments">Comments:</label>
+        </div>
+        <div class="rightSide">
+          <textarea id="comments" class="input-field" name="comments" placeholder="Tell us your comments here!"></textarea>
+        </div>
+      </div>
+      <button id="submit">Submit</button>
+    </form>
+  </div>
+  </body>
+</html>
+  <footer>
+    <p>2018 <a href="https://twitter.com/jenn_bridges" target="_blank">Jennifer Bridges</a></p>
+  </footer>
+</main>
